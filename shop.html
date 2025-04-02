@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            line-height: 1.5;
+            color: #432;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+        }
+        img{
+            max-width: 100%;
+        }
+        .logo{
+            width: 180px;
+            margin-top: 8px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            /*헤더 중앙배치*/
+            padding: 0 4%;
+            /*양쪽끝 여백지정 편하게 볼수있도록*/
+        }
+        .main-nav{
+            display: flex;
+            margin-top: 34px;
+            font-size: 20px;
+        }
+        .main-nav li{
+            margin-left: 36px;
+        }
+        .main-nav a {
+            color: #432;
+        }
+        .main-nav a:hover {
+            color: rgb(184, 139, 94);
+        }
+        .title {
+            font-size: 45px;
+            font-family: 'Philosopher', serif;
+            /*text-transform: uppercase;*/
+            font-weight: normal;
+        }
+        /*shop*/
+        #shop{
+            height: 260px;
+            margin-bottom: 40px;
+            border-bottom: #432 1px solid;
+        }
+        #shop .title{
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .grid{
+            display: grid;
+            gap: 26px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            margin-top: 6%;
+            margin-bottom: 50px;
+        }
+        .grid img{
+            height: 250px;
+            width: 250px;
+        }
+
+        /*footer*/
+        footer{
+            background: #432;
+            text-align: center;
+            padding: 26px 0;
+        }
+        footer p{
+            color: #fff;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="shop" class="big-bg">
+        <header class="header wrapper">
+            <h1><img class="logo" src="assets/logo.PNG" alt="리바트 이름"></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li class="join"><a href="join.html">로그인 | 회원가입</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <h2 class="title">SHOP</h2>
+        </div>
+    </div>
+    
+    <div class="wrapper grid">
+        <div class="item">
+            <img src="assets/chair1.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/chair2.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/table.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/drawer.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/drawer2.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/sofa1.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/sofa2.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/sofa3.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <div class="item">
+            <img src="assets/bed.PNG" alt="">
+            <p>식탁 의자 2개세트</p>
+            <ul class="price">
+                <li><h4>205,200</h4></li>
+                
+            </ul>
+        </div>
+        <!--
+        <aside>
+            <h3 class="sub-title">MD 추천</h3>
+            <ul class="sub-menu">
+                <li><a href="#">세계가구</a></li>
+                <li><a href="#">패브릭 소파</a></li>
+                <li><a href="#">키즈가구</a></li>
+                <li><a href="#">신혼가구</a></li>
+            </ul>
+        </aside>-->
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2025 LIVART mall</small></p> 
+        </div>
+    </footer>
+</body>
+</html>
