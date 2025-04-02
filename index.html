@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리바트몰</title>
+    <style>
+        body{
+            line-height: 1.7;
+            color: #432;
+            /*image*/
+           /*background-image: url(assets/yellowsofa.PNG);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;*/
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style-type: none;
+        }
+        img{
+            max-width: 100%;
+        }
+        .logo{
+            width: 180px;
+            margin-top: 8px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            /*헤더 중앙배치*/
+            padding: 0 4%;
+            /*양쪽끝 여백지정 편하게 볼수있도록*/
+        }
+        .main-nav{
+            display: flex;
+            margin-top: 34px;
+            font-size: 20px;
+        }
+        .main-nav li{
+            margin-left: 36px;
+        }
+        .main-nav a {
+            color: #432;
+        }
+        .main-nav a:hover {
+            color: white;
+        }
+        #home{
+            height: 250px;
+        }
+        #main-image{
+            background-image: url(assets/yellowsofa.PNG);
+        }
+
+        /*home-content*/
+        .home-content {
+            text-align: center;
+            margin-top: 5%;
+        }
+        .home-content p {
+            font-size: 20px;
+            margin: 10px 0 65px;
+        }
+        .title {
+            font-size: 60px;
+            font-family: 'Philosopher', serif;
+            /*text-transform: uppercase;*/
+            font-weight: normal;
+        }
+        .button {
+            font-size: 20px;
+            background: #432;
+            color: white;
+            border-radius: 5px;
+            padding: 18px 30px;
+            
+        }
+        .button:hover {
+            background: rgb(104, 78, 52);
+        }
+        #home{
+            background-image: url(assets/yellowsofa.PNG);
+            min-height: 100vh;
+            /*background-color:thistle;*/
+            /*background-blend-mode: hard-light;*/
+        }
+        .big-bg{
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        /*footer*/
+        footer{
+            background: #432;
+            text-align: center;
+            padding: 26px 0;
+        }
+        footer p{
+            color: #fff;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="home" class="big-bg">
+        <header class="header wrapper">
+            <h1><img class="logo" src="assets/logo.PNG" alt="리바트 이름"></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li class="join"><a href="join.html">로그인 | 회원가입</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="home-content wrapper">
+            <h2 class="title">Design can change the my day.</h2>
+            <p>리바트에서 제안하는 스타일 컨셉별로 우리 집 인테리어를 한 번에 시작해 보세요</p>
+            <a class="button" href="shop.html">View More</a>
+        </div><!--home content-->
+    </div><!--home-->
+
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2025 LIVART mall</small></p> 
+        </div>
+    </footer>
+</body>
+</html>
